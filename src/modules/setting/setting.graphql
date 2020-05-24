@@ -1,0 +1,15 @@
+type Query {
+  getSetting:                                                                        Setting
+}
+
+type Mutation {
+  updateSetting(input: InputUpdateSetting!):                                         Boolean
+}
+
+type Setting {
+  domain:                                       String
+}
+
+input InputUpdateSetting {
+  domain:                                       String
+}

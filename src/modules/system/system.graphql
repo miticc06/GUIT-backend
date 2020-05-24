@@ -1,0 +1,4 @@
+type Mutation {
+  restoreDB(label: String!): Boolean
+  backupDB(label: String!): Boolean
+}

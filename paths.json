@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@src/*": ["./*"],
+      "@constants": ["./constants"],
+      "@interceptors": ["./interceptors"],
+      "@modules": ["./modules"],
+      "@graphql": ["./modules/graphql"],
+      "@entities": ["./entities"],
+      "@utils": ["./utils"]
+    }
+  }
+}
