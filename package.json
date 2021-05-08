@@ -52,7 +52,7 @@
     "rimraf": "^3.0.2",
     "rxjs": "^6.5.5",
     "tsconfig-paths": "^3.9.0",
-    "typeorm": "^0.2.24",
+    "typeorm": "^0.2.25",
     "uuid": "^8.0.0"
   },
   "devDependencies": {
